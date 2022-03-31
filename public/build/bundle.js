@@ -396,14 +396,14 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			div = element("div");
-    			attr_dev(div, "class", div_class_value = "" + (null_to_empty(`square ${/*cell*/ ctx[16]}`) + " svelte-1n39wdl"));
+    			attr_dev(div, "class", div_class_value = "" + (null_to_empty(`square ${/*cell*/ ctx[16]}`) + " svelte-hd9h7i"));
     			add_location(div, file, 85, 3, 2124);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty & /*grid*/ 1 && div_class_value !== (div_class_value = "" + (null_to_empty(`square ${/*cell*/ ctx[16]}`) + " svelte-1n39wdl"))) {
+    			if (dirty & /*grid*/ 1 && div_class_value !== (div_class_value = "" + (null_to_empty(`square ${/*cell*/ ctx[16]}`) + " svelte-hd9h7i"))) {
     				attr_dev(div, "class", div_class_value);
     			}
     		},
@@ -444,7 +444,7 @@ var app = (function () {
     			}
 
     			t = space();
-    			attr_dev(div, "class", "row svelte-1n39wdl");
+    			attr_dev(div, "class", "row svelte-hd9h7i");
     			add_location(div, file, 83, 2, 2077);
     		},
     		m: function mount(target, anchor) {
@@ -518,7 +518,7 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(main, "class", "svelte-1n39wdl");
+    			attr_dev(main, "class", "svelte-hd9h7i");
     			add_location(main, file, 81, 0, 2044);
     		},
     		l: function claim(nodes) {

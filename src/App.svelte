@@ -101,7 +101,7 @@
 
 <style>
 	:global(body), :global(html) {
-		background: #151D3B;
+		background: #1B1A17;
 		height: 100%;
 		display: flex;
 		justify-content: center;
@@ -109,7 +109,7 @@
 	}
 
 	main {
-		box-shadow: #080b16 0px 6px 25px;
+		box-shadow: #706f2a 0px 0px 30px;
 	}
 
 	.square {
@@ -118,15 +118,15 @@
 	}
 
 	.empty {
-		background-color: #D82148;
+		background-color: #F0A500;
 	}
 
 	.snake {
-		background-color: #6EBF8B;
+		background-color: #E45826;
 	}
 
 	.food {
-		background-color: #DADBBD;
+		background-color: #E6D5B8;
 	}
 
 	.row {

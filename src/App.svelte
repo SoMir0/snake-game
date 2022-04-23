@@ -22,6 +22,9 @@
 				xy = 0;
 				dir = -1;
 				break;
+			case 82:
+				window.location = window.location;
+				break;
 			case 65:
 				if(xy == 1) break;
 				xy = 1;
@@ -48,7 +51,7 @@
 	}
 
 	function handleTile(nextPos) {
-		if(grid[nextPos[0]][nextPos[1]] == null || grid[nextPos[0]][nextPos[1]] == 'snake') {
+		if(!grid[nextPos[0]][nextPos[1]] || grid[nextPos[0]][nextPos[1]] == 'snake') {
 			end = true;
 		}
 		else if(grid[nextPos[0]][nextPos[1]] == 'food') {
@@ -59,7 +62,7 @@
 	}
 
 	const fn = (n: number) => {
-		const interval = setTimeout(() => {
+		setTimeout(() => {
 			if(end) return;
 			
 			const lastPos = snakes[0];

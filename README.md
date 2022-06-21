@@ -1,6 +1,8 @@
 # Snake game
 A small snake game made in Svelte, with typescript.
 
+Demo: https://svelte-game.netlify.app/
+
 ## Installation
 
 To install and run, simply do:
